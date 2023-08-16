@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'cadastro.dart';
 import 'contador.dart';
@@ -14,6 +16,7 @@ class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      
       routes: {
         '/': (context) => Home(),
         '/contador': (context) => Contador(),
